@@ -1,0 +1,31 @@
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: antiquewhite;
+  background-color: rgba(5, 4, 4, 0.909);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button{
+  background-color: rgba(128, 255, 0, 0.689);
+  color: black;
+  height: 60px;
+  width: 120px;
+  border-style: solid;
+  border-color: rgb(99, 35, 164);
+  border-radius: 30px;
+  border-width: 5px;
+}
